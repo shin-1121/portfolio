@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ShinPortfolio</title>
-    <meta name="description" content="ShinPortfolio Webデザイナーの作品集">
+    <meta name="description" content="ShinPortfolio Webデザイナーの作品集" />
 
     <!-- start OGP -->
-    <meta property="og:local" content="jp_JP">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="ShinPortfolio">
-    <meta property="og:url" content="https://sleek-japan.biz/">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="ShinPortfolio Webデザイナーの作品集">
+    <meta property="og:local" content="jp_JP" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ShinPortfolio" />
+    <meta property="og:url" content="https://sleek-japan.biz/" />
+    <meta property="og:image" content="" />
+    <meta
+      property="og:description"
+      content="ShinPortfolio Webデザイナーの作品集"
+    />
     <!-- end OGP -->
 
     <!-- <link rel="stylesheet" href="css/reset.css"> -->
@@ -22,438 +24,472 @@
     <!-- <link rel="stylesheet" type="text/css" href="css/remodal.css"> -->
     <!-- <link rel="stylesheet" type="text/css" href="css/remodal-default-theme.css"> -->
     <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- header start -->
     <header id="header">
-        <div class="header-title-wrap">
-            <h1 class="header-title">Shin<br>Portfolio</h1>
-            <p class=" header-text">Webデザイナーの作品集</p>
+      <div class="header-title-wrap">
+        <h1 class="header-title">Shin<br />Portfolio</h1>
+        <p class="header-text">Webデザイナーの作品集</p>
+      </div>
+      <figure class="header-img">
+        <img src="./assets/img/tianyi-ma-WiONHd_zYI4-unsplash.jpg" alt="" />
+      </figure>
+      <nav class="gnav">
+        <ul class="gnav-list">
+          <li><a href="#section1">WORKS</a></li>
+          <li><a href="#section2">ABOUT</a></li>
+          <li><a href="#section3">SKILL</a></li>
+          <li><a href="#section4">CONTACT</a></li>
+        </ul>
+        <div id="js-gnav-btn" class="gnav-btn">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <figure class="header-img"><img src="img/tianyi-ma-WiONHd_zYI4-unsplash.jpg" alt=""></figure>
-        <nav class="gnav">
-            <ul class="gnav-list">
-                <li><a href="#section1">WORKS</a></li>
-                <li><a href="#section2">ABOUT</a></li>
-                <li><a href="#section3">SKILL</a></li>
-                <li><a href="#section4">CONTACT</a></li>
-            </ul>
-            <div id="js-gnav-btn" class="gnav-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+      </nav>
     </header>
     <!-- header end -->
 
     <main id="main">
-        <!-- start works -->
-        <section id="section1" class="works">
-            <h2 class="section-title">
-                <a href="">
-                    <span>WORKS</span>
-                </a>
-            </h2>
-            <p class="section-text">Web（デザインとコーディング）制作記録です。<br>
-                デザイン練習用の架空サイトも含んでおります。</p>
-            <div class="work-wrapper">
-                <section class="work-box">
-                    <a href="#modal_a">
-                        <figure class="work-img"><img src="img/salon.png" alt=""></figure>
-                        <h3 class="work-box-title"><span>作品名</span><span>Hair Salon Be Free</span></h3>
-                    </a>
-                    <div class="remodal" data-remodal-id="modal_a">
-                        <button data-remodal-action="close" class="remodal-close"></button>
-                        <figure class="work-img">
-                            <a href="hairsalonbefree" target="_blank"><img src="img/salon.png"></a>
-                        </figure>
-                        <h4 class="remodal-title">サイトのこだわり</h4>
-                        <p class="remodal-text">ヘアサロンの魅力が伝わるようにデザインしました。<br>
-                            コーディングは文書構造を心掛けました。
-                        </p>
-                        <div class="work-box-text">
-                            <dl>
-                                <dt>デザイン</dt>
-                                <dd>Shin</dd>
-                            </dl>
-                            <dl>
-                                <dt>コーディング</dt>
-                                <dd>shin</dd>
-                            </dl>
-                        </div>
-                        <a href="hairsalonbefree" target="_blank">
-                            <p>https://sleek-japan.biz/hairsalonbefree/</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="work-box">
-                    <a href="#modal_b">
-                        <figure class="work-img"><img src="img/corp.png" alt=""></figure>
-                        <h3 class="work-box-title"><span>作品名</span><span>事業サイト</span></h3>
-                    </a>
-                    <div class="remodal" data-remodal-id="modal_b">
-                        <button data-remodal-action="close" class="remodal-close"></button>
-                        <figure class="work-img">
-                            <a href="corporate" target="_blank"><img src="img/corp.png"></a>
-                        </figure>
-                        <h4 class="remodal-title">サイトのこだわり</h4>
-                        <p class="remodal-text"><br>
-                            コーディングは文書構造を心掛けました。
-                        </p>
-                        <div class="work-box-text">
-                            <dl>
-                                <dt>デザイン</dt>
-                                <dd>school</dd>
-                            </dl>
-                            <dl>
-                                <dt>コーディング</dt>
-                                <dd>shin</dd>
-                            </dl>
-                        </div>
-                        <a href="corporate" target="_blank">
-                            <p>https://sleek-japan.biz/corporate/</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="work-box">
-                    <a href="#modal_c">
-                        <figure class="work-img"><img src="img/hatsusiba2.png" alt=""></figure>
-                        <h3 class="work-box-title"><span>作品名</span><span>初芝鉄工所</span></h3>
-                    </a>
-                    <div class="remodal" data-remodal-id="modal_c">
-                        <button data-remodal-action="close" class="remodal-close"></button>
-                        <figure class="work-img">
-                            <a href="hatsusiba" target="_blank"><img src="img/hatsusiba2.png"></a>
-                        </figure>
-                        <h4 class="remodal-title">サイトのこだわり</h4>
-                        <p class="remodal-text"><br>
-                            コーディングは文書構造を心掛けました。
-                        </p>
-                        <div class="work-box-text">
-                            <dl>
-                                <dt>デザイン</dt>
-                                <dd>school</dd>
-                            </dl>
-                            <dl>
-                                <dt>コーディング</dt>
-                                <dd>shin</dd>
-                            </dl>
-                        </div>
-                        <a href="hatsusiba" target="_blank">
-                            <p>https://sleek-japan.biz/hatsusiba/</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="work-box">
-                    <a href="#modal_d">
-                        <figure class="work-img"><img src="img/ksk2.png" alt=""></figure>
-                        <h3 class="work-box-title"><span>作品名</span><span>Ksk薬局</span></h3>
-                    </a>
-                    <div class="remodal" data-remodal-id="modal_d">
-                        <button data-remodal-action="close" class="remodal-close"></button>
-                        <figure class="work-img">
-                            <a href="ksk01" target="_blank"><img src="img/ksk2.png"></a>
-                        </figure>
-                        <h4 class="remodal-title">サイトのこだわり</h4>
-                        <p class="remodal-text"><br>
-                            コーディングは文書構造を心掛けました。
-                        </p>
-                        <div class="work-box-text">
-                            <dl>
-                                <dt>デザイン</dt>
-                                <dd>school</dd>
-                            </dl>
-                            <dl>
-                                <dt>コーディング</dt>
-                                <dd>shin</dd>
-                            </dl>
-                        </div>
-                        <a href="ksk01" target="_blank">
-                            <p>https://sleek-japan.biz/ksk01/</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="work-box">
-                    <a href="#modal_e">
-                        <figure class="work-img"><img src="img/kuugo2.png" alt=""></figure>
-                        <h3 class="work-box-title"><span>作品名</span><span>Kuugo</span></h3>
-                    </a>
-                    <div class="remodal" data-remodal-id="modal_e">
-                        <button data-remodal-action="close" class="remodal-close"></button>
-                        <figure class="work-img">
-                            <a href="kuugo01" target="_blank"><img src="img/kuugo2.png"></a>
-                        </figure>
-                        <h4 class="remodal-title">サイトのこだわり</h4>
-                        <p class="remodal-text"><br>
-                            コーディングは文書構造を心掛けました。
-                        </p>
-                        <div class="work-box-text">
-                            <dl>
-                                <dt>デザイン</dt>
-                                <dd>shool</dd>
-                            </dl>
-                            <dl>
-                                <dt>コーディング</dt>
-                                <dd>shin</dd>
-                            </dl>
-                        </div>
-                        <a href="kuugo01" target="_blank">
-                            <p>https://sleek-japan.biz/kuugo01</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="work-box">
-                    <a href="#modal_f">
-                        <figure class="work-img"><img src="img/cowa.png" alt=""></figure>
-                        <h3 class="work-box-title">作品名<span>Cowa</span></h3>
-                    </a>
-                    <div class="remodal" data-remodal-id="modal_f">
-                        <button data-remodal-action="close" class="remodal-close"></button>
-                        <figure class="work-img">
-                            <a href="cowa" target="_blank"><img src="img/cowa.png"></a>
-                        </figure>
-                        <h4 class="remodal-title">サイトのこだわり</h4>
-                        <p class="remodal-text"><br>
-                            スクールの最初の課題です。
-                            BEMを使用の書き方、マルチクラスを使用するように指示がありました。
-                        </p>
-                        <div class="work-box-text">
-                            <dl>
-                                <dt>デザイン</dt>
-                                <dd>school</dd>
-                            </dl>
-                            <dl>
-                                <dt>コーディング</dt>
-                                <dd>shin</dd>
-                            </dl>
-                        </div>
-                        <a href="cowa" target="_blank">
-                            <p>https://sleek-japan.biz/cowa/</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="work-box">
-                    <a href="#modal_g">
-                        <figure class="work-img"><img src="img/engress.png" alt=""></figure>
-                        <h3 class="work-box-title">作品名<span>engress</span></h3>
-                    </a>
-                    <div class="remodal" data-remodal-id="modal_g">
-                        <button data-remodal-action="close" class="remodal-close"></button>
-                        <figure class="work-img">
-                            <a href="" target="_blank"><img src="img/engress.png"></a>
-                        </figure>
-                        <h4 class="remodal-title">サイトのこだわり</h4>
-                        <p class="remodal-text">スクールの最初の課題です。
-                            BEMを使用の書き方、マルチクラスを使用するように指示がありました。<br>
-                            
-                        </p>
-                        <div class="work-box-text">
-                            <dl>
-                                <dt>デザイン</dt>
-                                <dd>school</dd>
-                            </dl>
-                            <dl>
-                                <dt>コーディング</dt>
-                                <dd>shin</dd>
-                            </dl>
-                        </div>
-                        <a href="engress" target="_blank">
-                            <p>https://engress.sleek-japan.biz/</p>
-                        </a>
-                    </div>
-                </section>
-            </div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="hairsalonbefree" target="_blank"><img src="img/salon.png"></a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="corporate" target="_blank"><img src="img/corp.png"></a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="hatsusiba" target="_blank"><img src="img/hatsusiba2.png"></a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="ksk01" target="_blank"><img src="img/ksk2.png"></a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="kuugo01" target="_blank"><img src="img/kuugo2.png"></a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="cowa" target="_blank"><img src="img/cowa.png"></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end works -->
-
-        <!-- start about -->
-        <section id="section2" class="about">
-            <h2 class="section-title">
-                <a href="">
-                    <span>ABOUT</span>
-                </a>
-            </h2>
-            <p class="section-text">こんにちは！
-                埼玉にてフリーランスのWeb制作をしております。
-            </p>
-            <div class="about-img-box">
-                <figure class="about-img"><img src="img/shin.JPG" alt=""></figure>
-                <figcaption>2020年より独学でWeb制作を学び始める。<br>
-                    2021年より約１年間大阪市内のwebデザインスクールで学び現在に至る。<br>
-                    デザイン・コーディングの学習を集中して学ぶ。<br>
-                    2022年よりフリーランスへ転向。
-                </figcaption>
-            </div>
-        </section>
-        <section id="section3" class="skill">
-            <h2 class="section-title">
-                <a href="">
-                    <span>SKILL</span>
-                </a>
-            </h2>
-            <p class="section-text">学ぶモチベーションの高さと継続力には自信があります！<br>
-                お客様の意図を素早く汲み取りご満足頂ける仕事をモットーとして居ります。
-            </p>
-            <div class="skill-box-wrap">
-                <section class="skill-box">
-                    <h3 class="skill-box-title"><i class="fab fa-html5 fa-sm "></i>
-                        HTML.CSS</h3>
-                    <p class="skill-box-text">文章構造に沿ったマークアップを心掛け
-                        見やすく修正しやすい物になるように心掛けています。</p>
-                </section>
-                <section class="skill-box">
-                    <h3 class="skill-box-title"><i class="fas fa-desktop fa-sm fa-fw"></i>Webデザイン</h3>
-                    <p class="skill-box-text">お客様の要望をヒアリングし、現状の問題点を洗い出し効果的なデザインを
-                        心掛けます。
-                    </p>
-                </section>
-                <section class="skill-box">
-                    <h3 class="skill-box-title"><i class="fab fa-js fa-sm fa-fw"></i>jQuery</h3>
-                    <p class="skill-box-text">静的サイトに少し動きをつけて
-                        Richに見えるように楽しくなるようなサイトを作ります。
-                    </p>
-                </section>
-                <section class="skill-box">
-                    <h3 class="skill-box-title"><i class="fab fa-wordpress fa-sm fa-fw"></i>WordPress</h3>
-                    <p class="skill-box-text">既存のテーマを使用したり
-                        オリジナルのテーマを作成したりして扱い易いサイトを
-                        作ります。
-                    </p>
-                </section>
-            </div>
-        </section>
-        <!-- end about -->
-
-        <!-- start contact -->
-        <section id="section4" class="contact">
-            <h2 class="section-title">
-                <a href="">
-                    <span>Contact</span>
-                </a>
-            </h2>
-            <p class="section-text">お問い合わせはお電話、メールにてお願い致します。</p>
-            <div class="contact-wrap">
+      <!-- start works -->
+      <section id="section1" class="works">
+        <h2 class="section-title">
+          <a href="">
+            <span>WORKS</span>
+          </a>
+        </h2>
+        <p class="section-text">
+          Web（デザインとコーディング）制作記録です。<br />
+          デザイン練習用の架空サイトも含んでおります。
+        </p>
+        <div class="work-wrapper">
+          <section class="work-box">
+            <a href="#modal_a">
+              <figure class="work-img">
+                <img src="./assets/img/salon.png" alt="" />
+              </figure>
+              <h3 class="work-box-title">
+                <span>作品名</span><span>Hair Salon Be Free</span>
+              </h3>
+            </a>
+            <div class="remodal" data-remodal-id="modal_a">
+              <button
+                data-remodal-action="close"
+                class="remodal-close"
+              ></button>
+              <figure class="work-img">
+                <a href="hairsalonbefree" target="_blank"
+                  ><img src="./assets/img/salon.png"
+                /></a>
+              </figure>
+              <h4 class="remodal-title">サイトのこだわり</h4>
+              <p class="remodal-text">
+                ヘアサロンの魅力が伝わるようにデザインしました。<br />
+                コーディングは文書構造を心掛けました。
+              </p>
+              <div class="work-box-text">
                 <dl>
-                    <dt>Tel</dt>
-                    <dd>080-4651-0358</dd>
-                    <dd class="blue-btn"><a href="tel:08046510358">TEL</a></dd>
+                  <dt>デザイン</dt>
+                  <dd>Shin</dd>
                 </dl>
                 <dl>
-                    <dt>Mail</dt>
-                    <dd>pomodoro1130@gmail.com</dd>
-                    <dd class="blue-btn"><a href="mailto:pomodoro1130@gmail.com">Mail</a></dd>
+                  <dt>コーディング</dt>
+                  <dd>shin</dd>
                 </dl>
+              </div>
+              <a href="hairsalonbefree" target="_blank">
+                <p>https://sleek-japan.biz/hairsalonbefree/</p>
+              </a>
             </div>
-        </section>
-        <!-- end contact -->
+          </section>
+          <section class="work-box">
+            <a href="#modal_b">
+              <figure class="work-img">
+                <img src="./assets/img/corp.png" alt="" />
+              </figure>
+              <h3 class="work-box-title">
+                <span>作品名</span><span>事業サイト</span>
+              </h3>
+            </a>
+            <div class="remodal" data-remodal-id="modal_b">
+              <button
+                data-remodal-action="close"
+                class="remodal-close"
+              ></button>
+              <figure class="work-img">
+                <a href="corporate" target="_blank"
+                  ><img src="./assets/img/corp.png"
+                /></a>
+              </figure>
+              <h4 class="remodal-title">サイトのこだわり</h4>
+              <p class="remodal-text">
+                <br />
+                コーディングは文書構造を心掛けました。
+              </p>
+              <div class="work-box-text">
+                <dl>
+                  <dt>デザイン</dt>
+                  <dd>school</dd>
+                </dl>
+                <dl>
+                  <dt>コーディング</dt>
+                  <dd>shin</dd>
+                </dl>
+              </div>
+              <a href="corporate" target="_blank">
+                <p>https://sleek-japan.biz/corporate/</p>
+              </a>
+            </div>
+          </section>
+          <section class="work-box">
+            <a href="#modal_c">
+              <figure class="work-img">
+                <img src="./assets/img/hatsusiba2.png" alt="" />
+              </figure>
+              <h3 class="work-box-title">
+                <span>作品名</span><span>初芝鉄工所</span>
+              </h3>
+            </a>
+            <div class="remodal" data-remodal-id="modal_c">
+              <button
+                data-remodal-action="close"
+                class="remodal-close"
+              ></button>
+              <figure class="work-img">
+                <a href="hatsusiba" target="_blank"
+                  ><img src="./assets/img/hatsusiba2.png"
+                /></a>
+              </figure>
+              <h4 class="remodal-title">サイトのこだわり</h4>
+              <p class="remodal-text">
+                <br />
+                コーディングは文書構造を心掛けました。
+              </p>
+              <div class="work-box-text">
+                <dl>
+                  <dt>デザイン</dt>
+                  <dd>school</dd>
+                </dl>
+                <dl>
+                  <dt>コーディング</dt>
+                  <dd>shin</dd>
+                </dl>
+              </div>
+              <a href="hatsusiba" target="_blank">
+                <p>https://sleek-japan.biz/hatsusiba/</p>
+              </a>
+            </div>
+          </section>
+          <section class="work-box">
+            <a href="#modal_d">
+              <figure class="work-img">
+                <img src="./assets/img/ksk2.png" alt="" />
+              </figure>
+              <h3 class="work-box-title">
+                <span>作品名</span><span>Ksk薬局</span>
+              </h3>
+            </a>
+            <div class="remodal" data-remodal-id="modal_d">
+              <button
+                data-remodal-action="close"
+                class="remodal-close"
+              ></button>
+              <figure class="work-img">
+                <a href="ksk01" target="_blank"
+                  ><img src="./assets/img/ksk2.png"
+                /></a>
+              </figure>
+              <h4 class="remodal-title">サイトのこだわり</h4>
+              <p class="remodal-text">
+                <br />
+                コーディングは文書構造を心掛けました。
+              </p>
+              <div class="work-box-text">
+                <dl>
+                  <dt>デザイン</dt>
+                  <dd>school</dd>
+                </dl>
+                <dl>
+                  <dt>コーディング</dt>
+                  <dd>shin</dd>
+                </dl>
+              </div>
+              <a href="ksk01" target="_blank">
+                <p>https://sleek-japan.biz/ksk01/</p>
+              </a>
+            </div>
+          </section>
+          <section class="work-box">
+            <a href="#modal_e">
+              <figure class="work-img">
+                <img src="./assets/img/kuugo2.png" alt="" />
+              </figure>
+              <h3 class="work-box-title">
+                <span>作品名</span><span>Kuugo</span>
+              </h3>
+            </a>
+            <div class="remodal" data-remodal-id="modal_e">
+              <button
+                data-remodal-action="close"
+                class="remodal-close"
+              ></button>
+              <figure class="work-img">
+                <a href="kuugo01" target="_blank"
+                  ><img src="./assets/img/kuugo2.png"
+                /></a>
+              </figure>
+              <h4 class="remodal-title">サイトのこだわり</h4>
+              <p class="remodal-text">
+                <br />
+                コーディングは文書構造を心掛けました。
+              </p>
+              <div class="work-box-text">
+                <dl>
+                  <dt>デザイン</dt>
+                  <dd>shool</dd>
+                </dl>
+                <dl>
+                  <dt>コーディング</dt>
+                  <dd>shin</dd>
+                </dl>
+              </div>
+              <a href="kuugo01" target="_blank">
+                <p>https://sleek-japan.biz/kuugo01</p>
+              </a>
+            </div>
+          </section>
+          <section class="work-box">
+            <a href="#modal_f">
+              <figure class="work-img">
+                <img src="./assets/img/cowa.png" alt="" />
+              </figure>
+              <h3 class="work-box-title">作品名<span>Cowa</span></h3>
+            </a>
+            <div class="remodal" data-remodal-id="modal_f">
+              <button
+                data-remodal-action="close"
+                class="remodal-close"
+              ></button>
+              <figure class="work-img">
+                <a href="cowa" target="_blank"
+                  ><img src="./assets/img/cowa.png"
+                /></a>
+              </figure>
+              <h4 class="remodal-title">サイトのこだわり</h4>
+              <p class="remodal-text">
+                <br />
+                スクールの最初の課題です。
+                BEMを使用の書き方、マルチクラスを使用するように指示がありました。
+              </p>
+              <div class="work-box-text">
+                <dl>
+                  <dt>デザイン</dt>
+                  <dd>school</dd>
+                </dl>
+                <dl>
+                  <dt>コーディング</dt>
+                  <dd>shin</dd>
+                </dl>
+              </div>
+              <a href="cowa" target="_blank">
+                <p>https://sleek-japan.biz/cowa/</p>
+              </a>
+            </div>
+          </section>
+          <section class="work-box">
+            <a href="#modal_g">
+              <figure class="work-img">
+                <img src="./assets/img/engress.png" alt="" />
+              </figure>
+              <h3 class="work-box-title">作品名<span>engress</span></h3>
+            </a>
+            <div class="remodal" data-remodal-id="modal_g">
+              <button
+                data-remodal-action="close"
+                class="remodal-close"
+              ></button>
+              <figure class="work-img">
+                <a href="" target="_blank"
+                  ><img src="./assets/img/engress.png"
+                /></a>
+              </figure>
+              <h4 class="remodal-title">サイトのこだわり</h4>
+              <p class="remodal-text">
+                スクールの最初の課題です。
+                BEMを使用の書き方、マルチクラスを使用するように指示がありました。<br />
+              </p>
+              <div class="work-box-text">
+                <dl>
+                  <dt>デザイン</dt>
+                  <dd>school</dd>
+                </dl>
+                <dl>
+                  <dt>コーディング</dt>
+                  <dd>shin</dd>
+                </dl>
+              </div>
+              <a href="http://engress.sleek-japan.biz/" target="_blank">
+                <p>http://engress.sleek-japan.biz/</p>
+              </a>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="hairsalonbefree" target="_blank"
+                ><img src="./assets/img/salon.png"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="corporate" target="_blank"
+                ><img src="./assets/img/corp.png"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="hatsusiba" target="_blank"
+                ><img src="./assets/img/hatsusiba2.png"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="ksk01" target="_blank"
+                ><img src="./assets/img/ksk2.png"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="kuugo01" target="_blank"
+                ><img src="./assets/img/kuugo2.png"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="cowa" target="_blank"
+                ><img src="./assets/img/cowa.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end works -->
+
+      <!-- start about -->
+      <section id="section2" class="about">
+        <h2 class="section-title">
+          <a href="">
+            <span>ABOUT</span>
+          </a>
+        </h2>
+        <p class="section-text">
+          こんにちは！ 埼玉にてフリーランスのWeb制作をしております。
+        </p>
+        <div class="about-img-box">
+          <figure class="about-img">
+            <img src="./assets/img/shin.JPG" alt="" />
+          </figure>
+          <figcaption>
+            2020年より独学でWeb制作を学び始める。<br />
+            2021年より約１年間大阪市内のwebデザインスクールで学び現在に至る。<br />
+            デザイン・コーディングの学習を集中して学ぶ。<br />
+            2022年よりフリーランスへ転向。
+          </figcaption>
+        </div>
+      </section>
+      <section id="section3" class="skill">
+        <h2 class="section-title">
+          <a href="">
+            <span>SKILL</span>
+          </a>
+        </h2>
+        <p class="section-text">
+          学ぶモチベーションの高さと継続力には自信があります！<br />
+          お客様の意図を素早く汲み取りご満足頂ける仕事をモットーとして居ります。
+        </p>
+        <div class="skill-box-wrap">
+          <section class="skill-box">
+            <h3 class="skill-box-title">
+              <i class="fab fa-html5 fa-sm"></i> HTML.CSS
+            </h3>
+            <p class="skill-box-text">
+              文章構造に沿ったマークアップを心掛け
+              見やすく修正しやすい物になるように心掛けています。
+            </p>
+          </section>
+          <section class="skill-box">
+            <h3 class="skill-box-title">
+              <i class="fas fa-desktop fa-sm fa-fw"></i>Webデザイン
+            </h3>
+            <p class="skill-box-text">
+              お客様の要望をヒアリングし、現状の問題点を洗い出し効果的なデザインを
+              心掛けます。
+            </p>
+          </section>
+          <section class="skill-box">
+            <h3 class="skill-box-title">
+              <i class="fab fa-js fa-sm fa-fw"></i>jQuery
+            </h3>
+            <p class="skill-box-text">
+              静的サイトに少し動きをつけて
+              Richに見えるように楽しくなるようなサイトを作ります。
+            </p>
+          </section>
+          <section class="skill-box">
+            <h3 class="skill-box-title">
+              <i class="fab fa-wordpress fa-sm fa-fw"></i>WordPress
+            </h3>
+            <p class="skill-box-text">
+              既存のテーマを使用したり
+              オリジナルのテーマを作成したりして扱い易いサイトを 作ります。
+            </p>
+          </section>
+        </div>
+      </section>
+      <!-- end about -->
+
+      <!-- start contact -->
+      <section id="section4" class="contact">
+        <h2 class="section-title">
+          <a href="">
+            <span>Contact</span>
+          </a>
+        </h2>
+        <p class="section-text">
+          お問い合わせはお電話、メールにてお願い致します。
+        </p>
+        <div class="contact-wrap">
+          <dl>
+            <dt>Tel</dt>
+            <dd>080-4651-0358</dd>
+            <dd class="blue-btn"><a href="tel:08046510358">TEL</a></dd>
+          </dl>
+          <dl>
+            <dt>Mail</dt>
+            <dd>pomodoro1130@gmail.com</dd>
+            <dd class="blue-btn">
+              <a href="mailto:pomodoro1130@gmail.com">Mail</a>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <!-- end contact -->
     </main>
-    <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+    <p id="pageTop">
+      <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </p>
 
     <!-- footer start -->
     <footer id="footer">
-        <p class="copy-right"><small>Copyright CC All Rights Reserved</small></p>
+      <p class="copy-right"><small>Copyright CC All Rights Reserved</small></p>
     </footer>
     <!-- footer end -->
-</body>
-
-
-</html>
-
-<script src="js/jquery-min.js"></script>
-<script src="js/swiper.min.js"></script>
-<script type="text/javascript" src="js/remodal.min.js"></script>
-<script src="js/main.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
+    <script src="./assets/js/jquery-min.js"></script>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/remodal.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
