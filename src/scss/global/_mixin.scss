@@ -1,0 +1,17 @@
+// global./_mixin.scss
+@use "./variables" as var;
+
+
+@mixin mq($breakpoint) {
+  @if map-has-key(var.$breakpoints, $breakpoint) {
+    @media screen and #{inspect(map-get(var.$breakpoints, $breakpoint))} {
+      @content;
+    }
+  }
+
+}
+// mixin呼び出し
+@mixin font-size($size, $base: 16) {
+  font-size: $size + px;
+  font-size: calc($size / $base) + rem;
+}

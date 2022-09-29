@@ -1,0 +1,160 @@
+// layout/_header.scss
+
+@use "../global/" as var;
+
+
+#header  {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+}
+.header-title-wrap {
+  position: absolute;
+  top: 100px;
+  left: 13.56%
+}
+@media screen and (max-width: 740px) {
+    .header-title-wrap {
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header-title-wrap{
+      top: 150px;
+      left: 8%;
+    }
+}
+
+.header-title {
+  font-size: 7.8vw;
+  font-weight: bold;
+  font-family: "DIN";
+  color:  #fff;
+  letter-spacing: 12px;
+  line-height: 1.1;
+
+}
+
+.header-img img {
+  margin: 0 auto;
+  display: block;
+}
+
+@media screen and (max-width: 580px) {
+  .header-img img{
+      height: 440px;
+
+    }
+}
+
+.header-text {
+  color:#fff;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  
+}
+
+.gnav {
+  max-width: 1170px;
+  margin:  0 auto;
+  
+}
+
+.gnav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.gnav-list li {
+  
+    padding: 10px 30px;
+    position: relative;
+}
+
+.gnav-list li a::after {
+    position: absolute;
+    left: 25%;
+    content: '';
+    width: 50%;
+    height: 2px;
+    background: #000000;
+    bottom: -1px;               
+    transform: scale(0, 1);     
+    transform-origin: left top; 
+    transition: transform 0.3s; 
+}
+
+.gnav-list li a:hover::after {
+transform: scale(1, 1);     
+}
+
+
+@media screen and (max-width: 580px) {
+.gnav-btn {
+    width: 50px;
+    height: 50px;
+    background-color:#06182c;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+.gnav-btn span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 11px auto;
+
+}
+
+.gnav-list {
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0;
+    margin-top: 0;
+    z-index: 3;
+    background-color: #222;
+    opacity: 0.8;
+}
+
+.show .gnav-list {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    
+}
+
+.gnav-list{
+    width: 100%;
+    border: none;
+    padding-top: 50px;
+    
+
+}
+
+
+.gnav-list a {
+  display: block;
+  color: #fff;
+  font-size: 32px;
+  padding-bottom: 30px;
+  
+}
+
+}

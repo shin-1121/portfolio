@@ -1,0 +1,60 @@
+// layout/_contact.scss
+
+
+@use "../global/" as var;
+
+.contact {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+}
+
+@media screen and (max-width: 580px) {
+    .contact {
+        padding: 20px;
+    }
+}
+
+.contact-wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 580px) {
+    .contact-wrap {
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+.contact-wrap dl {
+    width: 48%;
+}
+
+@media screen and (max-width: 580px) {
+    .contact-wrap dl {
+        width: 100%;
+    }
+}
+
+.contact-wrap dt {
+    text-align: center;
+    font-size: 24px;
+    color: #222;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 580px) {
+    .contact-wrap dt {
+        margin-top: 0px;
+    }
+}
+
+.contact-wrap dd {
+    text-align: center;
+    font-size: 18px;
+    margin: 30px auto;
+    color: #222;
+}
